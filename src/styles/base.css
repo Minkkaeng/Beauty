@@ -1,0 +1,5 @@
+@layer base {
+  body {
+    @apply antialiased text-natural-green bg-natural-cream;
+  }
+}

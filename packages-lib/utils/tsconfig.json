@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

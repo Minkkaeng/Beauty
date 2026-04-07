@@ -1,0 +1,13 @@
+@layer components {
+  .btn-primary {
+    @apply px-8 py-3 bg-natural-green text-natural-cream font-medium tracking-wide transition-all duration-300 hover:bg-leaf-green hover:shadow-lg;
+  }
+  
+  .glass-card {
+    @apply bg-white/30 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-xl;
+  }
+
+  .section-title {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight;
+  }
+}

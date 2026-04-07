@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* 1. Theme Variables */
+@import "./styles/theme.css";
+
+/* 2. Base Styles */
+@import "./styles/base.css";
+
+/* 3. Component Styles */
+@import "./styles/components.css";
+
+/* 4. Animation Effects */
+@import "./styles/animations.css";

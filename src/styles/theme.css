@@ -1,0 +1,10 @@
+@theme {
+  --color-natural-green: #3A5A40;
+  --color-natural-beige: #DAD7CD;
+  --color-natural-cream: #F4F1DE;
+  --color-leaf-green: #588157;
+  --color-soft-earth: #A3B18A;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+}
