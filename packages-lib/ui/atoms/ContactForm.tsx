@@ -41,13 +41,13 @@ export const ContactForm: React.FC<ContactFormProps> = ({
           {showInfo && (
             <div className="space-y-8 pt-6">
               {[
-                { icon: <Mail />, label: "Email", value: "hello@premium.com" },
-                { icon: <Phone />, label: "Phone", value: "+82 2-1234-5678" },
-                { icon: <MapPin />, label: "Office", value: "Gangnam-gu, Seoul, Korea" },
+                { icon: <Mail size={24} />, label: "Email", value: "hello@premium.com" },
+                { icon: <Phone size={24} />, label: "Phone", value: "+82 2-1234-5678" },
+                { icon: <MapPin size={24} />, label: "Office", value: "Gangnam-gu, Seoul, Korea" },
               ].map((item, i) => (
                 <div key={i} className="flex items-center space-x-6 group cursor-pointer">
                   <div className="p-4 bg-indigo-50 text-indigo-600 rounded-3xl transition-all group-hover:bg-indigo-600 group-hover:text-white group-hover:rotate-12">
-                    {React.cloneElement(item.icon as React.ReactElement, { size: 24 })}
+                    {item.icon}
                   </div>
                   <div>
                     <p className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-300 mb-1">{item.label}</p>
