@@ -117,9 +117,9 @@ const AppContent: React.FC = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
   
   const navLinks = [
-    { label: "Collection", href: "/products" },
-    { label: "Philosophy", href: "/#about" },
-    { label: "Ingredients", href: "/#ingredients" },
+    { label: "Collection", href: "#/products" },
+    { label: "Philosophy", href: "#/about" },
+    { label: "Ingredients", href: "#/ingredients" },
   ];
 
   // Map cart items from context to the format expected by the UI library
@@ -206,7 +206,7 @@ const AppContent: React.FC = () => {
             items: [
               { label: "Our Story", href: "#" },
               { label: "Botanical Extracts", href: "#" },
-              { label: "New Arrivals", href: "/products" }
+              { label: "New Arrivals", href: "#/products" }
             ]
           },
           {
