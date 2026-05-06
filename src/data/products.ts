@@ -15,7 +15,7 @@ export const products: Product[] = [
     name: "Radiance Vitamin C Serum",
     category: "Serum",
     price: 48000,
-    image: "/assets/serum.png",
+    image: "assets/serum.png",
     description: "Brightening vitamin complex with sea buckthorn oil and pure Vitamin C.",
     details: [
       "Stabilized 15% Vitamin C",
@@ -30,7 +30,7 @@ export const products: Product[] = [
     name: "Deep Hydration Alpine Cream",
     category: "Cream",
     price: 55000,
-    image: "/assets/hero.png",
+    image: "assets/hero.png",
     description: "Intensive moisture barrier support with alpine botanicals and ceramides.",
     details: [
       "72-hour moisture lock",
@@ -45,7 +45,7 @@ export const products: Product[] = [
     name: "Gentle Balancing Rose Toner",
     category: "Toner",
     price: 32000,
-    image: "/assets/ingredients.png",
+    image: "assets/ingredients.png",
     description: "PH-balancing mist with Bulgarian rose water and chamomile.",
     details: [
       "100% Bulgarian Rose Water",
@@ -60,7 +60,7 @@ export const products: Product[] = [
     name: "Pure Botanical Oil Cleanser",
     category: "Cleanser",
     price: 38000,
-    image: "/assets/serum.png", // Reusing image for demo
+    image: "assets/serum.png", // Reusing image for demo
     description: "Gentle oil-to-milk cleanser that dissolves makeup and impurities.",
     details: [
       "Natural Plant Oils",
@@ -75,7 +75,7 @@ export const products: Product[] = [
     name: "Face Glow Rejuvenating Oil",
     category: "Oil",
     price: 64000,
-    image: "/assets/hero.png", // Reusing image for demo
+    image: "assets/hero.png", // Reusing image for demo
     description: "Luxury facial oil for deep nourishment and a radiant glow.",
     details: [
       "Prickly Pear Seed Oil",

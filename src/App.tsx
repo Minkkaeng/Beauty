@@ -27,7 +27,7 @@ const Home: React.FC = () => {
       name: "Radiance Serum", 
       category: "Serum",
       price: 48000,
-      image: "/assets/serum.png",
+      image: "assets/serum.png",
       description: "Brightening vitamin complex with sea buckthorn oil."
     },
     { 
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
       name: "Deep Hydration Cream", 
       category: "Cream",
       price: 55000,
-      image: "/assets/hero.png",
+      image: "assets/hero.png",
       description: "Intensive moisture barrier support with alpine botanicals."
     },
     { 
@@ -43,7 +43,7 @@ const Home: React.FC = () => {
       name: "Gentle Balancing Toner", 
       category: "Toner",
       price: 32000,
-      image: "/assets/ingredients.png",
+      image: "assets/ingredients.png",
       description: "PH-balancing mist with Bulgarian rose water."
     }
   ];
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
         title="Nature's Fine Craftsmanship"
         subtitle="Purity in Every Drop"
         description="자연이 선사하는 가장 순수한 원료와 현대 과학의 만남. 당신의 피부 본연의 건강한 빛을 찾아드립니다."
-        backgroundImage="/assets/hero.png"
+        backgroundImage="assets/hero.png"
         primaryAction={{ label: "Discover Collection", onClick: () => navigate("/products") }}
         isFullHeight={true}
       />
